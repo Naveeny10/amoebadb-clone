@@ -12,10 +12,13 @@ my-mern-project/
 ✅ Step 1: Install Node.js Dependencies
 
 Each part of the project (frontend, server) has its own package.json. You need to run npm install in all three folders.
+
 🔧 1.1 Install Dependencies in All Subfolders
 
 Open your terminal and run:
+
 cd path/to/my-mern-project
+
 npm install
 
 # Install frontend dependencies
