@@ -21,12 +21,16 @@ cd path/to/my-mern-project
 
 npm install
 
-# Install frontend dependencies
+ Install frontend dependencies
+ 
 cd frontend
+
 npm install
 
-# Install server dependencies
-cd ../server
+ Install server dependencies
+ 
+cd server
+
 npm install
 
 ✅ Step 2: Setup MongoDB Atlas Cluster
