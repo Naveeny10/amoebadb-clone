@@ -2,6 +2,7 @@
 
 📁 Folder Structure Overview
 my-mern-project/
+
 ├── frontend/         # React application (client)
 
 ├── server/           # logic/API gateway (e.g., for DB connection, auth, etc.)
