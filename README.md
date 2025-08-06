@@ -3,7 +3,9 @@
 📁 Folder Structure Overview
 my-mern-project/
 ├── frontend/         # React application (client)
+
 ├── server/           # logic/API gateway (e.g., for DB connection, auth, etc.)
+
 ├── server/.env              # Environment file containing MongoDB URI
 
 ✅ Step 1: Install Node.js Dependencies
