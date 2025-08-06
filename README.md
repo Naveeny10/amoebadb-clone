@@ -1,6 +1,8 @@
 📦 Dependency Installation & MongoDB Configuration (Detailed)
 
 📁 Folder Structure Overview
+
+
 my-mern-project/
 
 ├── frontend/         # React application (client)
@@ -9,11 +11,15 @@ my-mern-project/
 
 ├── server/.env              # Environment file containing MongoDB URI
 
+
+
 ✅ Step 1: Install Node.js Dependencies
 
 Each part of the project (frontend, server) has its own package.json. You need to run npm install in all three folders.
 
+
 🔧 1.1 Install Dependencies in All Subfolders
+
 
 Open your terminal and run:
 
@@ -21,11 +27,13 @@ cd path/to/my-mern-project
 
 npm install
 
+
  Install frontend dependencies
  
 cd frontend
 
 npm install
+
 
  Install server dependencies
  
@@ -36,6 +44,7 @@ npm install
 ✅ Step 2: Setup MongoDB Atlas Cluster
 
 We'll use MongoDB Atlas, the official free cloud-hosted MongoDB service.
+
 📝 2.1 Create a Cluster
 
     Go to https://cloud.mongodb.com and sign in or sign up.
@@ -80,6 +89,7 @@ Go to Clusters > Connect > Connect your application.
 Copy the connection string like:
 mongodb+srv://yourusername:yourpassword@cluster0.mongodb.net/amoebadb?retryWrites=true&w=majority
 
+
 ✅ Step 3: Add MongoDB URI to .env File
 
 In the server/ folder, there should be a .env file with a placeholder for the MongoDB URI.
@@ -87,6 +97,7 @@ Example .env in /server:
 
 MONGODB_URI=mongodb+srv://yourusername:yourpassword@cluster0.mongodb.net/amoebadb?retryWrites=true&w=majority
 PORT=5000
+
 
 📦 Import JSON Files into MongoDB Cluster
 
